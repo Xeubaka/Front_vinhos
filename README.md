@@ -4,4 +4,4 @@
 ```
 
 ## Api :shipit:
-    - conexão com [API_VINHOS](https://github.com/Xeubaka/api_vinhos)
+    - conexão com [API_VINHOS]: https://github.com/Xeubaka/api_vinhos 

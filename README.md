@@ -1,5 +1,9 @@
 ## Ambiente
-   Servidor Local: [Xampp 8.0.3](https://www.apachefriends.org/pt_br/download.html)
+   Servidor Local: [Node](https://nodejs.org/en/download/)
+   
+## Aparência
+   Optei por utilizar o [Material Ui](https://material-ui.com) para agilizar a contrução da aplicação.
+   Auxilia na estilização da página, assim como deixa o codigo mais legivel.
 
-## API 👾
+## API(backend) 👾
    conexão com  [API_VINHOS](https://github.com/Xeubaka/api_vinhos)

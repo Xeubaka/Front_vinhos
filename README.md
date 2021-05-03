@@ -1,7 +1,7 @@
-## Ambiente
+## Ambiente 💻
    - Servidor Local: [Node](https://nodejs.org/en/download/)
 
-## Configuração
+## Configuração 🔧
    - Instalar todas as dependencias, basta rodar o comando ``` npm install ``` (pode demorar um pouco)
    
 ## Aparência

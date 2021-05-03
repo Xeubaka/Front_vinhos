@@ -36,6 +36,7 @@ function Content(classes) {
         async function wineList() {
             let itens = await WineService.listWine();
             setList(itens.resposta);
+            setId(itens.resposta[0].id);
         }
         wineList();
     }, [])

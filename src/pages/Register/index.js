@@ -1,26 +1,23 @@
 import React from 'react';
-
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 
-import Header from '../../components/header/';
 import Content from './components/content';
+import Header from '../../components/header/';
 
-const useStyles = makeStyles( (theme) =>  ({
-    toolBar: {
-        minHeight: 64
-    },
+const useStyles = makeStyles( (theme) => ({
+    form: {
+        height: '50vh'
+    }, 
     paper: theme.paper,
-    main: theme.main,
-    content: theme.content(theme)
+    content: theme.content(theme),
+    main: theme.main
 }));
-
-function Home(props) {
+function Register(){
     const classes = useStyles();
-    
-    return ( 
+    return (
         <div className={classes.paper}>
             <Header/>
             <main className={classes.main}>
@@ -32,8 +29,9 @@ function Home(props) {
                     </Box>
                 </Container>
             </main>
-        </div>    
+        </div>  
     );
 }
 
-export default Home;
+
+export default Register;

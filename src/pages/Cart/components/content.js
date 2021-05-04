@@ -35,8 +35,10 @@ function Content(classes) {
     useEffect(() => {
         async function wineList() {
             let itens = await WineService.listWine();
-            setList(itens.resposta);
-            setId(itens.resposta[0].id);
+            if (typeof itens != 'undefined'){
+                setList(itens.resposta);
+                setId(itens.resposta[0].id);
+            }
         }
         wineList();
     }, [])
@@ -44,8 +46,10 @@ function Content(classes) {
     useEffect(() => {
         async function getWine(id) {
             let response = await WineService.getWine(id);
-            if (response.tipo === 'sucesso') {
-                setWine(response.resposta);
+            if (typeof response != 'undefined'){
+                if (response.tipo === 'sucesso') {
+                    setWine(response.resposta);
+                }
             }
         }
         getWine(id);

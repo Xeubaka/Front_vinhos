@@ -62,9 +62,9 @@ class WineService {
         try {
             let data = await axios(config)
             .then(({data}) => data);
-            return data
+            return data || []
         } catch (error) {
-            console.log(error)
+            //console.log(error)
         }
     }
 }

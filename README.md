@@ -13,7 +13,7 @@
 
 ## Minha experiência com esse estudo
 
-De longe mais desafiadora que a api em php, me diverti bastante também, consegui fazer muitas coisas que queria (algumas com mais esforço que gostaria :sweat: ), faltou alguns detalhes na organização da interface, orientação dos objetos na tela, etc... Mas faz parte, no fim quase não deu tempo de terminar tudo como pode ver pela hora desse commit (kkkkkk), mas está ai, entregue com todas funcionalidades conforme requisitado, entre algumas melhorias que me aventurei a fazer e praticar, certamente voltarei a esse projeto outra hora para termina-lo.
+De longe mais desafiadora que a api em php, me diverti bastante também, consegui fazer muitas coisas que queria, faltou alguns detalhes na organização da interface, orientação dos objetos na tela, etc... Mas faz parte, no fim quase não deu tempo de terminar tudo como pode ver pela hora desse commit (kkkkkk), mas está ai, entregue com todas funcionalidades conforme requisitado, entre algumas melhorias que me aventurei a fazer e praticar, certamente voltarei a esse projeto outra hora para termina-lo.
 
 Inclusive deu até sede ver tanto vinho, vai uma tacinha?
 ![vinho](https://www.elle.pt/2016/wp-content/uploads/2018/09/vinho.gif)
